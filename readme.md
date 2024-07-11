@@ -1,3 +1,8 @@
+嗯 一个在当前时代没什么太多应用场景的小工具（毕竟这年头还有webapp的项目也不多了）
+
+就是会在打包阶段统一移除webapp文件夹下面的js和jsp文件中的console.log输出语句（不包括error）
+
+插件引入方式如下:
 ~~~xml
 <build>
         <plugins>
