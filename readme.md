@@ -1,0 +1,27 @@
+~~~xml
+<build>
+        <plugins>
+            <plugin>
+                <groupId>com.pumpkinor</groupId>
+                <artifactId>rmconsole-maven-plugin</artifactId>
+                <version>1.3</version>
+                <executions>
+                    <execution>
+                        <id>rmConsoloLog</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>rmConsoloLog</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>rmConsoloLogAfter</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>rmConsoloLogAfter</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+</build>
+~~~
